@@ -373,8 +373,8 @@
                             <p>Hands-on exercises</p>
                         </div>
                         <div class="example-card">
-                            <h4>🏆 Certification</h4>
-                            <p>Master-level completion</p>
+                            <h4>Course completion</h4>
+                            <p>Completion threshold and downloadable record</p>
                         </div>
                     </div>
 
@@ -1257,16 +1257,16 @@
                 
                 ${certification ? `
                     <div class="success-box" style="text-align: center; padding: 30px;">
-                        <h3>🎓 CERTIFICATION EARNED! 🎓</h3>
-                        <p style="font-size: 1.2em; margin: 15px 0;">Congratulations! You have mastered the SC SMELL Framework!</p>
-                        <p>You can now create professional-quality AI animation prompts.</p>
-                        <button class="btn-primary" onclick="downloadCertificate()" style="margin-top: 20px;">📜 Download Certificate</button>
+                        <h3>COURSE COMPLETED</h3>
+                        <p style="font-size: 1.2em; margin: 15px 0;">You completed the SC SMELL course threshold.</p>
+                        <p>This result records completion of the course exercise. It is not an accredited professional certification and does not guarantee model-output quality.</p>
+                        <button class="btn-primary" onclick="downloadCertificate()" style="margin-top: 20px;">Download Completion Record</button>
                         <button class="btn-primary" onclick="restartCourse()" style="margin-top: 20px;">🔄 Take Course Again</button>
                     </div>
                 ` : `
                     <div class="warning-box" style="text-align: center;">
                         <h3>Keep Learning! 📚</h3>
-                        <p>Review the lessons and try again to earn your certification.</p>
+                        <p>Review the lessons and try the final exercise again to meet the completion threshold.</p>
                         <button class="btn-primary" onclick="restartCourse()">🔄 Restart Course</button>
                     </div>
                 `}
@@ -1296,7 +1296,7 @@
             });
         }
 
-        // DOWNLOAD CERTIFICATE
+        // DOWNLOAD COURSE COMPLETION RECORD
         function downloadCertificate() {
             const canvas = document.createElement('canvas');
             canvas.width = 800;
@@ -1332,8 +1332,8 @@
             // Completion text
             ctx.font = '24px Arial';
             ctx.fillStyle = '#333';
-            ctx.fillText('This certifies that the holder has successfully', 400, 280);
-            ctx.fillText('mastered AI Animation Prompt Engineering', 400, 310);
+            ctx.fillText('This records that the holder completed the', 400, 280);
+            ctx.fillText('SC SMELL course completion threshold', 400, 310);
             
             // Date
             ctx.font = '18px Arial';
@@ -1342,11 +1342,11 @@
             // Score
             ctx.font = 'bold 20px Arial';
             ctx.fillStyle = '#4CAF50';
-            ctx.fillText('🏆 CERTIFIED PROMPT ENGINEER 🏆', 400, 450);
+            ctx.fillText('COURSE COMPLETION RECORD', 400, 450);
             
             // Download
             const link = document.createElement('a');
-            link.download = 'SC-SMELL-Framework-Certificate.png';
+            link.download = 'SC-SMELL-Course-Completion.png';
             link.href = canvas.toDataURL();
             link.click();
         }
