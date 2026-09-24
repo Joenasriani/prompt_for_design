@@ -1,19 +1,19 @@
 # 📚 SC SMELL Framework: Interactive AI Animation Prompt Engineering Course
 
-Welcome to the SC SMELL Framework, a free, interactive, single-page course designed to transform your AI animation prompts from simple guesses into professional, repeatable formulas.
+SC SMELL is a free, interactive, single-page course for structuring AI animation prompts into explicit creative variables that can be tested, revised, and reused.
 
-**👉 [Try the Interactive Course Live Here!](https://joenasriani.github.io/Prompt_for_design/) 👈
+**Live course:** https://joenasriani.github.io/prompt_for_design/
 ---
 
 ## 🎯 What Problem Does This Solve?
 
 Are you tired of getting unpredictable or mediocre results from AI animation tools like Runway, Pika Labs, or Stable Diffusion Video? The problem often lies in the prompt. Simple prompts like "a robot walking" leave too much to the AI's imagination, resulting in wasted time and credits.
 
-This course teaches you the **SC SMELL Framework**, a systematic approach to prompt engineering that gives you precise control over your output, ensuring the final animation matches your creative vision.
+This course teaches the **SC SMELL Framework**, a practical prompting heuristic for making creative intent more explicit. It can improve prompt consistency and diagnosability, but it cannot guarantee a particular model output.
 
 ## 🤔 What is the SC SMELL Framework?
 
-SC SMELL is an acronym for the seven essential components of a master-level AI animation prompt. By defining each element, you leave no room for error.
+SC SMELL is an acronym for seven useful prompt dimensions. The framework is a practical heuristic, not a validated universal standard for prompt quality.
 
 * **🎭 S - Scene:** The "what" and "where." Describe the subject, action, location, and key details.
 * **📹 C - Camera:** The perspective. Define the shot type (close-up, wide), angle, and movement (pan, dolly).
@@ -29,16 +29,16 @@ This is not a passive video tutorial. It's a hands-on learning tool built to sol
 
 * **🎮 Interactive Exercises:** Learn by doing with practical exercises for each of the 7 framework elements.
 * **📊 Instant Feedback:** Built-in checkers provide immediate feedback and scores on your practice prompts.
-* **🏆 Final Mastery Test:** Combine all your skills in a final test to create a complete, professional prompt based on a real-world scenario.
-* **📜 Free Certification:** Pass the final test to earn a downloadable "Certified Prompt Engineer" certificate to showcase your expertise.
+* **Final exercise:** Combine the seven dimensions into one structured prompt for a practical scenario.
+* **Completion record:** Pass the final exercise to generate a downloadable course-completion record. It is not an accredited professional certification.
 * **🚀 Zero Setup:** Runs entirely in your browser. No installation or account is needed.
 
 ## 🚀 Getting Started
 
-1.  **Access the course:** Click [this link](https://your-username.github.io/your-repository-name/) to open the course.
+1. **Access the course:** Open https://joenasriani.github.io/prompt_for_design/.
 2.  **Follow the lessons:** Progress through the 9 lessons, starting with the introduction.
 3.  **Complete the exercises:** Use the interactive tools in each lesson to build your understanding.
-4.  **Take the final test:** Earn your certificate and start creating amazing AI animations!
+4. **Complete the final exercise:** Generate a course-completion record after meeting the course threshold.
 
 ## 💻 For Developers: How to Run Locally
 
@@ -51,4 +51,4 @@ That's it! You can now use and modify the course locally.
 
 ---
 
-_This tool was created to help democratize the skills needed for the new wave of generative AI. Feel free to share, fork, and contribute!_
+_SC SMELL is an independent educational framework. Model behavior varies by provider, model, version, settings, and source material; results should be evaluated in the target tool._
