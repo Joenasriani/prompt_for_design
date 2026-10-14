@@ -1,4 +1,4 @@
-# 📚 SC SMELL Framework: Interactive AI Animation Prompt Engineering Course
+# SC SMELL Framework: Interactive AI Animation Prompt Engineering Course
 
 SC SMELL is a free, interactive, single-page course for structuring AI animation prompts into explicit creative variables that can be tested, revised, and reused.
 
@@ -47,8 +47,16 @@ This entire course is self-contained in a single HTML file with embedded CSS and
 1.  Clone or download this repository.
 2.  Open the `index.html` file in any modern web browser (like Chrome, Firefox, or Edge).
 
-That's it! You can now use and modify the course locally.
+The course works from a single HTML file. You do not need Node.js, an account, or a build system.
+
+**Progress note:** Course progression is managed in the page's JavaScript. It does not use browser localStorage, so do not expect progress to persist after reloading the page.
 
 ---
 
 _SC SMELL is an independent educational framework. Model behavior varies by provider, model, version, settings, and source material; results should be evaluated in the target tool._
+
+The completion record is generated locally as a downloadable PNG image. It is a course completion record, not external accreditation.
+
+Credit: Joe Nasr
+
+Portfolio: https://joe-nasr-signals.vercel.app/
